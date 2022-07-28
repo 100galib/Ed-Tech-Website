@@ -96,18 +96,18 @@
     <main class="mt-5">
       <div class="container">
         <!-- Discover Popular Courses Section -->
-        <div class="w-50 text-center mx-auto mb-5">
+        <div class="w-75 text-center mx-auto mb-5">
           <h1>Discover Our Popular Courses</h1>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
         </div>
-        <div class="row g-2">
+        <div class="row g-3">
           <div class="col-12 col-md-12 col-lg-6">
             <div class="p-2 border d-flex flex-md-row flex-lg-row flex-column flex-sm-column">
-              <div class="text-center">
+              <div  class="me-3 text-center">
                 <img src="images/course/course-1.png" alt="course-1">
               </div>
               <div class="ps-4">
-                <h3>Fundamental Of UI/UX Design</h3>
+                <h4>Fundamental Of UI/UX Design</h4>
                 <p>Start with the UI and UX desing which is fundamental of the course</p>
                 <h5 class="text-primary">Price: 20$</h5>
               </div>
@@ -119,7 +119,7 @@
                 <img src="images/course/course-2.png" alt="course-1">
               </div>
               <div  class="ps-4">
-                <h3>Javascript Basic to advanced</h3>
+                <h4>Javascript Basic to advanced</h4>
                 <p>Start Course with Siven haven for start to end Javascript courses courses</p>
                 <h5 class="text-primary">Price: 25$</h5>
               </div>
@@ -131,7 +131,7 @@
                 <img src="images/course/course-3.png" alt="course-1">
               </div>
               <div  class="ps-4">
-                <h3>Fullstack Web Development</h3>
+                <h4>Fullstack Web Development</h4>
                 <p>Fullstack now a days one of the rising job on the world</p>
                 <h5 class="text-primary">Price: 60$</h5>
               </div>
@@ -140,10 +140,10 @@
           <div class="col-12 col-md-12 col-lg-6">
             <div class="p-2 border d-flex flex-md-row flex-lg-row flex-column flex-sm-column">
               <div class="me-3 text-center">
-                <img src="images/course/course-4.png" alt="course-1">
+                <img src="images/course/course-4.png" alt="course-4">
               </div>
               <div  class="ps-4">
-                <h3>Digital Marketing</h3>
+                <h4>Digital Marketing</h4>
                 <p>Now on this modern century we not only read on computer but also buy from computer</p>
                 <h5 class="text-primary">Price: 35$</h5>
               </div>
@@ -155,7 +155,7 @@
                 <img src="images/course/course-5.png" alt="course-1">
               </div>
               <div  class="ps-4">
-                <h3>Photography Basic Rules</h3>
+                <h4>Photography Basic Rules</h4>
                 <p>If you want to build a website your first need your picture</p>
                 <h5 class="text-primary">Price: 25$</h5>
               </div>
@@ -167,7 +167,7 @@
                 <img src="images/course/course-6.png" alt="course-1">
               </div>
               <div  class="ps-4">
-                <h3>Motion Graphics</h3>
+                <h4>Motion Graphics</h4>
                 <p>We know presentation and animation then we have to go with moton Graphics</p>
                 <h5 class="text-primary">Price: 40$</h5>
               </div>
@@ -192,15 +192,104 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">Regester</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                ...
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                </form>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Frequently Asked Section -->
+      <div class="container mt-5">
+        <div class="w-75 mx-auto text-center">
+          <h1>Frequently Asked Questions</h1>
+          <p>Here We also gether some of the Frequently Asked question about our courses. Most relavent are about computer related</p>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What are the difference between flexbox and grid ?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>The main differences between Flexbox and CSS Grid</strong> Dimensions define the primary demarcation between Flexbox and CSS Grid. Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render rows and columns simultaneously.
+
+                In layperson terms, CSS Grid presents a larger canvas, while Flexbox offers minute functionality that operates in a restricted space. The grids have been designed for a two-dimensional organization.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What are the difference between bootstrap and tailwind ?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Bootstrap vs Tailwind CSS: What are the differences. </strong> Developers describe Bootstrap as "Simple and flexible HTML, CSS, and JS for popular UI components and interactions". Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. On the other hand, Tailwind CSS is detailed as "A utility-first CSS framework for rapid UI development". Tailwind is different from frameworks like Bootstrap, Foundation, or Bulma in that it's not a UI kit. It doesn't have a default theme, and there are no build-in UI components. It comes with a menu of predesigned widgets to build your site with, but doesn't impose design decisions that are difficult to undo.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is css box model ?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>CSS Box model.</strong> The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS. Some of them are given below: <br><br>
+
+                content: This property is used to displays the text, images, etc, that can be sized using the width & height property.<br>
+                padding: This property is used to create space around the element, inside any defined border.<br>
+                border: This property is used to cover the content & any padding, & also allows to set the style, color, and width of the border.<br>
+                margin: This property is used to create space around the element ie., around the border area.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What is semantic tag ?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.</strong>Elements such asheader, footer and article are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+
+                  What are Semantic Elements?
+                  HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed.
+                  
+                  Where the internet was originally intended for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer.
+                  
+                  Because the web was not initially built to be designed, programmers used different hacks to get things laid out in different ways. Rather than using the table to describe information using a table, programmers would use them to position other elements on a page.
+                  
+                  As the use of visually designed layouts progressed, programmers started to use a generic “non-semantic” tag like div. They would often give these elements a class or id attribute to describe their purpose. For example, instead of header this was often written as.
+                  
+                  As HTML5 is still relatively new, this use of non-semantic elements is still very common on websites today.
               </div>
             </div>
           </div>
